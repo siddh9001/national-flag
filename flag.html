@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>भारतीय ध्वज</title>
+</head>
+<body class="bg-gradient-to-b from-[#0000809e] to-[#00008069]">
+    <div class="p-4 px-8 flex flex-col items-center space-y-4">
+        <div class="h-16 p-4 cursor-pointer">
+            <button id="btn" class="p-2 rounded-md bg-gradient-to-br from-[#FF9933] via-[#fff] to-[#138808] opacity-70 hover:opacity-100 hover:shadow-md hover:cursor-pointer"><span class="font-bold text-[#000080]">15 अगस्त (कुछ अद्भुत के लिए यहां क्लिक करें)</span></button>
+        </div>
+        <div class="w-[70em] h-[30em] p-4flex flex-col">
+            <div id="flagb" class="w-full h-[72%] border-2 border-gray-700 grid grid-col-1 grid-rows-3 opacity-0">
+                <div id="flago" class="w-full bg-[#FF9933] opacity-0"></div>
+                <div id="flagw" class="w-full bg-[#FFF] flex justify-center items-center opacity-0">
+                    <div id="ashoka" class="relative h-24 w-24 border-2 border-[#000080] rounded-full flex flex-col justify-center opacity-0">
+                        <div id="ashoka1" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[15deg] opacity-0" ></div>
+                        <div id="ashoka2" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[30deg] opacity-0" ></div>
+                        <div id="ashoka3" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[45deg] opacity-0" ></div>
+                        <div id="ashoka4" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[60deg] opacity-0" ></div>
+                        <div id="ashoka5" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[75deg] opacity-0" ></div>
+                        <div id="ashoka6" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[90deg] opacity-0" ></div>
+                        <div id="ashoka7" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[105deg] opacity-0"></div>
+                        <div id="ashoka8" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[120deg] opacity-0"></div>
+                        <div id="ashoka9" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[135deg] opacity-0"></div>
+                        <div id="ashoka10" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[150deg] opacity-0"></div>
+                        <div id="ashoka11" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[165deg] opacity-0"></div>
+                        <div id="ashoka12" class="absolute w-full h-[3px] bg-[#000080] origin-center rotate-[180deg] opacity-0"></div>
+                    </div>
+                </div>
+                <div id="flagg" class="w-full bg-[#138808] opacity-0"></div>
+            </div>
+            <p id="message" class="w-full py-12 text-3xl text-center text-[#000080] font-bold opacity-0">✨✨🌼🌼🌼 सभी देशवासियों को स्वतंत्रता दिवस की शुभकामनाएँ 🌼🌼🌼✨✨</p>
+        </div>
+    </div>
+</body>
+<script>
+    let button = document.getElementById('btn');
+    let flagb = document.getElementById('flagb');
+    let flago = document.getElementById('flago');
+    let flagw = document.getElementById('flagw');
+    let flagg = document.getElementById('flagg');
+    let ashoka = document.getElementById('ashoka');
+    let ashoka1 = document.getElementById('ashoka1');
+    let ashoka2 = document.getElementById('ashoka2');
+    let ashoka3 = document.getElementById('ashoka3');
+    let ashoka4 = document.getElementById('ashoka4');
+    let ashoka5 = document.getElementById('ashoka5');
+    let ashoka6 = document.getElementById('ashoka6');
+    let ashoka7 = document.getElementById('ashoka7');
+    let ashoka8 = document.getElementById('ashoka8');
+    let ashok9 = document.getElementById('ashoka9');
+    let ashoka10 = document.getElementById('ashoka10');
+    let ashoka11 = document.getElementById('ashoka11');
+    let ashoka12 = document.getElementById('ashoka12');
+    let message = document.getElementById('message')
+
+    button.addEventListener('click', () => {
+
+        flagb.style.opacity = "1";
+        flagb.style.transitionProperty = "opacity";
+        flagb.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        flagb.style.transitionDuration = "250ms";
+        flagb.style.transitionDelay = "100ms"
+
+        flago.style.opacity = "1";
+        flago.style.transitionProperty = "opacity";
+        flago.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        flago.style.transitionDuration = "250ms";
+        flago.style.transitionDelay = "250ms"
+
+        flagw.style.opacity = "1";
+        flagw.style.transitionProperty = "opacity";
+        flagw.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        flagw.style.transitionDuration = "250ms";
+        flagw.style.transitionDelay = "500ms"
+
+        flagg.style.opacity = "1";
+        flagg.style.transitionProperty = "opacity";
+        flagg.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        flagg.style.transitionDuration = "250ms";
+        flagg.style.transitionDelay = "750ms"
+
+        ashoka.style.opacity = "1";
+        ashoka.style.transitionProperty = "opacity";
+        ashoka.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka.style.transitionDuration = "250ms";
+        ashoka.style.transitionDelay = "1000ms"
+
+        ashoka1.style.opacity = "1";
+        ashoka1.style.transitionProperty = "opacity";
+        ashoka1.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka1.style.transitionDuration = "250ms";
+        ashoka1.style.transitionDelay = "1250ms"
+
+        ashoka2.style.opacity = "1";
+        ashoka2.style.transitionProperty = "opacity";
+        ashoka2.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka2.style.transitionDuration = "250ms";
+        ashoka2.style.transitionDelay = "1500ms"
+
+        ashoka3.style.opacity = "1";
+        ashoka3.style.transitionProperty = "opacity";
+        ashoka3.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka3.style.transitionDuration = "250ms";
+        ashoka3.style.transitionDelay = "1750ms"
+
+        ashoka4.style.opacity = "1";
+        ashoka4.style.transitionProperty = "opacity";
+        ashoka4.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka4.style.transitionDuration = "250ms";
+        ashoka4.style.transitionDelay = "2000ms"
+
+        ashoka5.style.opacity = "1";
+        ashoka5.style.transitionProperty = "opacity";
+        ashoka5.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka5.style.transitionDuration = "250ms";
+        ashoka5.style.transitionDelay = "2250ms"
+
+        ashoka6.style.opacity = "1";
+        ashoka6.style.transitionProperty = "opacity";
+        ashoka6.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka6.style.transitionDuration = "250ms";
+        ashoka6.style.transitionDelay = "2500ms"
+
+        ashoka7.style.opacity = "1";
+        ashoka7.style.transitionProperty = "opacity";
+        ashoka7.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka7.style.transitionDuration = "250ms";
+        ashoka7.style.transitionDelay = "2.75s"
+
+        ashoka8.style.opacity = "1";
+        ashoka8.style.transitionProperty = "opacity";
+        ashoka8.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka8.style.transitionDuration = "250ms";
+        ashoka8.style.transitionDelay = "3s"
+
+        ashoka9.style.opacity = "1";
+        ashoka9.style.transitionProperty = "opacity";
+        ashoka9.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka9.style.transitionDuration = "250ms";
+        ashoka9.style.transitionDelay = "3.25s"
+
+        ashoka10.style.opacity = "1";
+        ashoka10.style.transitionProperty = "opacity";
+        ashoka10.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka10.style.transitionDuration = "250ms";
+        ashoka10.style.transitionDelay = "3.5s"
+        
+        ashoka11.style.opacity = "1";
+        ashoka11.style.transitionProperty = "opacity";
+        ashoka11.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka11.style.transitionDuration = "250ms";
+        ashoka11.style.transitionDelay = "3.75s"
+
+        ashoka12.style.opacity = "1";
+        ashoka12.style.transitionProperty = "opacity";
+        ashoka12.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        ashoka12.style.transitionDuration = "250ms";
+        ashoka12.style.transitionDelay = "4s"
+
+        message.style.opacity = "1";
+        message.style.transitionProperty = "opacity";
+        message.style.transitionTimingFunction = "cubic-bezier(0.4, 0, 0.2, 1)";
+        message.style.transitionDuration = "250ms";
+        message.style.transitionDelay = "4.5s"
+    });
+</script>
+</html>
